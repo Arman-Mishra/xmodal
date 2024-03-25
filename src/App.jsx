@@ -64,8 +64,8 @@ function App() {
           <label htmlFor="number">Phone Number:</label>
           <input
             type="text"
-            name="number"
-            id="number"
+            name="phone"
+            id="phone"
             value={phone_number}
             onChange={(e) => setPhoneNumber(e.target.value)}
             required
